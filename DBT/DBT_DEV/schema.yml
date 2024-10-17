@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: ods_dev
+    database: ODS_DEV
+    schema: STAGING
+    tables:
+      - name: AGENT
+      - name: CAR
+      - name: CUSTOMER
+      - name: EXPENSES
+      - name: HEALTH_CARE
+      - name: HOUSE
+      - name: LIFE_INSURANCE
+      - name: PAYMENT
+      - name: POLICY
+      - name: PROFIT_AND_LOSS
+      - name: REVENUE
+      - name: SALES_TRANSACTIONS
+      - name: CLAIMS
