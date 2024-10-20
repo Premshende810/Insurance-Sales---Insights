@@ -1,93 +1,56 @@
-# 🚀 Sales Insights Dashboard - Insurance Company
+# Sales Insights Dashboard for Insurance Company
 
-## Overview
+## Project Overview
+This project builds a Sales Insights Dashboard for a fictional insurance company, offering real-time insights on sales performance, customer behavior, and financial metrics. Technologies used include **Snowflake**, **DBT**, **Tableau**, and **Apache Airflow** for data processing and visualization.
 
-This project aims to build a **Sales Insights Dashboard** for a fictional insurance company, providing real-time, data-driven insights into sales performance, customer behavior, and financial outcomes. The dashboard will enable quick, automated decision support for stakeholders, leveraging key technologies such as **Snowflake**, **DBT**, **Tableau**, and **Apache Airflow**.
+## Problem Statements
+Key insights for the Sales Director include:
+- Product Performance: Top insurance products.
+- Customer Segmentation: Primary buyers of each product.
+- Sales Trends & Forecasting: Future sales predictions.
+- Geographical Insights: Regional sales distribution.
+- Agent Performance & Claim Status: Growth drivers and profit margins.
 
-### 📊 Business Questions Addressed
-- **Product Performance**: Which insurance products are performing best?
-- **Customer Segmentation**: Who's buying which insurance products?
-- **Sales Trends & Forecasting**: What does the future hold for sales?
-- **Geographical Insights**: How do sales vary across regions?
-- **Revenue & Profit Optimization**: Where is growth happening, and how are margins performing?
+## Technologies Used
+- **Snowflake**: Data storage and query execution.
+- **DBT**: Data transformation.
+- **Apache Airflow**: Workflow orchestration.
+- **Tableau**: Data visualization.
+- **GitHub**: Version control.
 
-## 🛠️ Technologies Used
-- **Snowflake**: Raw data storage and warehousing
-- **DBT**: Data transformations and modeling
-- **Apache Airflow**: Data orchestration and automation
-- **Tableau**: Data visualization and dashboards
-- **GitHub**: Version control and repository management
+## Certifications
+- **Data Visualization**: Tableau (Cognizant).
+- **Snowflake Data Engineering**: Snowflake.
+- **DBT**: Udemy.
+- **Apache Airflow**: LinkedIn Learning.
 
-## 🎯 Problem Statements
-The sales director is looking to understand the company's performance across multiple dimensions:
-- **Top-performing insurance products**
-- **Customer segments most likely to purchase**
-- **Future sales forecasts**
-- **Regional sales performance**
-- **Revenue and profit margins**
+## Workflow
+1. **Data Ingestion**: Local files → Snowflake.
+2. **Transformation**: DBT models in Snowflake.
+3. **Orchestration**: Scheduled in Apache Airflow.
+4. **Visualization**: Dashboards in Tableau.
 
-## 🔄 Workflow
-1. **Data Ingestion**: Load local files into Snowflake.
-2. **Transformation**: Transform the raw data using DBT.
-3. **Data Views**: Use Snowflake views to create the final data model.
-4. **Orchestration**: Automate the data pipeline using Apache Airflow.
-5. **Visualization**: Build insightful dashboards in Tableau.
+## Key Insights
+- Top insurance products.
+- Customer segments and future sales forecasts.
+- Regional sales trends.
+- Revenue and profit margins.
 
-## 📈 Key Insights
-- Top-performing insurance products.
-- Most profitable customer segments.
-- Sales forecasts and trend analysis.
-- Regional breakdown of sales performance.
-- Revenue growth and profit margins.
+## Setup Process
+1. Generate fake data using Python's `faker`.
+2. Ingest into Snowflake and perform ETL.
+3. Set up DBT and connect to Snowflake.
+4. Install and configure Apache Airflow.
+5. Connect Tableau to Snowflake for dashboarding.
 
-## 👨‍💻 Certifications 📜
-The following certifications were obtained to ensure the successful implementation of this project:
-- **Data Visualization with Tableau** (Cognizant LED training)
-- **Snowflake Hands-on Essentials Data Engineering Badge** (Snowflake)
-- **DBT Tool Certification** (Udemy)
-- **Apache Airflow Certification** (LinkedIn Learning)
-- **GitHub** (YouTube)
+## ER Diagram
+- **Snowflake**: Raw data storage.
+- **DBT**: Data transformation.
+- **Tableau**: Visualization.
 
-## 📝 Setup Instructions
-
-### Step 1: Generate Dummy Data
-Use the Python `faker` library to generate synthetic data for agents, customers, policies, and claims.
-
-### Step 2: Import Data into Snowflake
-Load the generated data into Snowflake and perform any necessary ETL processes.
-
-### Step 3: Setup DBT Environment
-- Sign up for a free trial of DBT.
-- Create a DBT environment and connect it to the Snowflake database.
-
-### Step 4: Install Apache Airflow
-- Install Apache Airflow locally.
-- Create and schedule DAGs to automate data pipeline workflows.
-
-### Step 5: Download Tableau
-- Download **Tableau Public** (Free) or **Tableau Desktop** (14-day trial).
-- Connect Tableau to the Snowflake database and create visualizations.
-
-### Step 6: Save Tableau Dashboard
-- Save your Tableau file as `.twb` or `.twbx` for sharing and publishing.
-
----
-
-## 👥 Stakeholders
-- **Sales Director**: Decision-maker seeking insights for better strategy.
-- **I.T. Team**: Ensures smooth integration and data flow.
-- **Customer Service Team**: Understands customer behavior through insights.
-- **Data & Analytics Team**: Builds, monitors, and enhances the dashboard.
-
-## 🎯 Project Goal
-The goal is to unlock key sales insights that were previously inaccessible, automate data gathering processes, and support decision-making with a self-updating dashboard.
-
----
-
-## 📈 Future Enhancements
-- **Advanced Forecasting Models**: Integrate ML models for enhanced sales prediction.
-- **Real-Time Data Ingestion**: Set up streaming data pipelines.
-- **Enhanced User Experience**: Add more interactive visualizations.
-
-## 🛠 Project Maintenance
-For any issues or feature requests, please create an issue in this repository.
+## Dashboards
+https://public.tableau.com/app/profile/prem.shende/viz/Insurance-Sales-Insights/d1?publish=yes
+- **Master Dashboard**: Sales insights.
+- **Agent Performance**: Tracks agent performance.
+- **Customer Demographics**: Analyzes customer profiles.
+- **Policy & Claims**: Insight into policies and claims.
