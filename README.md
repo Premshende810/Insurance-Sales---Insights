@@ -54,3 +54,5 @@ https://public.tableau.com/app/profile/prem.shende/viz/Insurance-Sales-Insights/
 - **Agent Performance**: Tracks agent performance.
 - **Customer Demographics**: Analyzes customer profiles.
 - **Policy & Claims**: Insight into policies and claims.
+
+[Download the Project Guide (PDF)](Docs/Project Guide.pdf)
