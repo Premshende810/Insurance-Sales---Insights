@@ -18,6 +18,8 @@ with d as
         claim_id,
         claim_date,
         claim_status,	
+        PAYMENT_AMOUNT,
+        SETTLEMENT_DATE,
         TOTAL_REVENUE, 
         ROW_NUMBER() OVER (PARTITION BY cust_id ORDER BY ISSUED_DATE DESC) AS rn
  from {{ ref('vw_union_all_insurance') }}
@@ -39,9 +41,12 @@ with d as
     DEDUCTIBLE,	
     claim_id,
     claim_date,
+    PAYMENT_AMOUNT,
+    SETTLEMENT_DATE,
     claim_status,
     TOTAL_REVENUE 
 
 from d 
 where rn<=1
+
 
