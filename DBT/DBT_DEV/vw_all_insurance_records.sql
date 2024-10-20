@@ -49,4 +49,3 @@ with d as
 from d 
 where rn<=1
 
-
