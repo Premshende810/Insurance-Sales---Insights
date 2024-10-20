@@ -18,6 +18,8 @@ WITH house_insurance AS (
         i.claim_id,
         i.claim_type,
         i.claim_date,
+        i.PAYMENT_AMOUNT,
+        i.SETTLEMENT_DATE,
         i.claim_status,
         p.DEDUCTIBLE,
         ROW_NUMBER() OVER (PARTITION BY c.cust_id ORDER BY p.ISSUED_DATE DESC) AS rn
@@ -46,6 +48,8 @@ WITH house_insurance AS (
         claim_type,
         claim_date,
         claim_status,
+        PAYMENT_AMOUNT,
+        SETTLEMENT_DATE,
         DEDUCTIBLE,
         SUM(TERM_AMT) OVER (PARTITION BY agent_id) AS total_revenue
     FROM house_insurance
