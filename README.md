@@ -29,7 +29,7 @@ Key insights for the Sales Director include:
 2. **Transformation**: DBT models in Snowflake.
 3. **Orchestration**: Scheduled in Apache Airflow.
 4. **Visualization**: Dashboards in Tableau.
-![image alt](Docs/WorkFlow Diagram.jpg)
+
 ## Key Insights
 - Top insurance products.
 - Customer segments and future sales forecasts.
@@ -43,7 +43,7 @@ Key insights for the Sales Director include:
 4. Install and configure Apache Airflow.
 5. Connect Tableau to Snowflake for dashboarding.
 
-## ER Diagram
+## ER - Diagram
 - **Snowflake**: Raw data storage.
 - **DBT**: Data transformation.
 - **Tableau**: Visualization.
@@ -51,6 +51,7 @@ Key insights for the Sales Director include:
 ## Dashboards
 https://public.tableau.com/app/profile/prem.shende/viz/Insurance-Sales-Insights/d1?publish=yes
 - **Master Dashboard**: Sales insights.
+- **Sales Performance Overview Dashboard**: Sales performance region wise and top selling agents report.
 - **Agent Performance**: Tracks agent performance.
 - **Customer Demographics**: Analyzes customer profiles.
 - **Policy & Claims**: Insight into policies and claims.
