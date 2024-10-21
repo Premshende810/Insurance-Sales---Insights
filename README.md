@@ -29,7 +29,7 @@ Key insights for the Sales Director include:
 2. **Transformation**: DBT models in Snowflake.
 3. **Orchestration**: Scheduled in Apache Airflow.
 4. **Visualization**: Dashboards in Tableau.
-
+![image alt](Docs/WorkFlow Diagram.jpg)
 ## Key Insights
 - Top insurance products.
 - Customer segments and future sales forecasts.
