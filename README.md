@@ -56,5 +56,8 @@ https://public.tableau.com/app/profile/prem.shende/viz/Insurance-Sales-Insights/
 - **Customer Demographics**: Analyzes customer profiles.
 - **Policy & Claims**: Insight into policies and claims.
 
-[Download the Project Guide (PDF)](Docs/Project Guide.pdf](https://github.com/Premshende810/Insurance-Sales-Insights/blob/main/Docs/Project%20Doc.pdf)
-Project PPT (https://github.com/Premshende810/Insurance-Sales-Insights/blob/main/Docs/Project%20PPT%20File.pptx)
+## [Project Doc]
+- (Docs/Project Guide.pdf](https://github.com/Premshende810/Insurance-Sales-Insights/blob/main/Docs/Project%20Doc.pdf)
+  
+## [Project PPT]
+- (https://github.com/Premshende810/Insurance-Sales-Insights/blob/main/Docs/Project%20PPT%20File.pptx)
