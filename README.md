@@ -47,7 +47,7 @@ Key insights for the Sales Director include:
 - **Snowflake**: Raw data storage.
 - **DBT**: Data transformation.
 - **Tableau**: Visualization.
-
+![image alt](https://github.com/Premshende810/Insurance-Sales-Insights/blob/main/Docs/ERD.png)
 ## Dashboards
 https://public.tableau.com/app/profile/prem.shende/viz/Insurance-Sales-Insights/d1?publish=yes
 - **Master Dashboard**: Sales insights.
